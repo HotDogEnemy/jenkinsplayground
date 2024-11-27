@@ -1,0 +1,11 @@
+---
+sourceLocationPrefix: /Users/I578094/.jenkins/workspace/jenkinsplayground
+baselineLinesOfCode: 20
+unicodeNewlines: false
+columnKind: utf16
+primaryLanguage: java
+creationMetadata:
+  sha: b3f109c8326f020629cfa1959dce9dba991aab48
+  cliVersion: 2.17.6
+  creationTime: 2024-10-14T13:21:40.446560Z
+finalised: true

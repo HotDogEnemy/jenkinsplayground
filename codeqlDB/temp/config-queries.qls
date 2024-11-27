@@ -1,0 +1,263 @@
+---
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-297/UnsafeHostnameVerification.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-094/InsecureBeanValidation.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-094/GroovyInjection.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-094/TemplateInjection.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-094/MvelInjection.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-094/JexlInjection.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-094/SpelInjection.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-209/StackTraceExposure.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-807/TaintedPermissionsCheck.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-601/UrlRedirect.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-926/ImplicitlyExportedAndroidComponent.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-780/RsaWithoutOaep.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-326/InsufficientKeySize.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-1104/MavenPomDependsOnBintray.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-917/OgnlInjection.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-113/NettyResponseSplitting.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-113/ResponseSplitting.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-327/BrokenCryptoAlgorithm.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-918/RequestForgery.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-927/ImplicitPendingIntents.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-522/InsecureLdapAuth.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-732/ReadingFromWorldWritableFile.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-552/UrlForward.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-335/PredictableSeed.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-489/DebuggableAttributeEnabled.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-489/WebviewDebuggingEnabled.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-1204/StaticInitializationVector.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-614/InsecureCookie.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-089/SqlTainted.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-074/JndiInjection.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-074/XsltInjection.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-020/OverlyLargeRange.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-090/LdapInjection.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-266/IntentUriPermissionManipulation.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-295/ImproperWebViewCertificateValidation.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-295/InsecureTrustManager.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-940/AndroidIntentRedirection.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-347/MissingJWTSignatureCheck.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-925/ImproperIntentVerification.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-312/AllowBackupAttributeEnabled.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-312/CleartextStorageCookie.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-330/InsecureRandomness.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-134/ExternallyControlledFormatString.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-352/SpringCSRFProtection.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-338/JHipsterGeneratedPRNG.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-502/UnsafeDeserialization.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-730/RegexInjection.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-730/ReDoS.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-730/PolynomialReDoS.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-470/FragmentInjectionInPreferenceActivity.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-470/FragmentInjection.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-022/ZipSlip.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-022/TaintedPath.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-441/UnsafeContentUriResolution.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-611/XXE.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-078/ExecUnescaped.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-078/ExecTainted.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-681/NumericCastTainted.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-023/PartialPathTraversalFromRemote.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-643/XPathInjection.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-829/InsecureDependencyResolution.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-079/XSS.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-287/AndroidInsecureLocalAuthentication.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Likely
+    Bugs/Arithmetic/InformationLoss.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-297/InsecureJavaMail.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-094/ArbitraryApkInstallation.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-807/ConditionalBypass.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-200/AndroidSensitiveTextField.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-200/TempDirLocalInformationDisclosure.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-200/AndroidSensitiveNotifications.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-200/AndroidWebViewSettingsAllowsContentAccess.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-200/AndroidWebViewSettingsFileAccess.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-926/ContentProviderIncompletePermissions.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-524/SensitiveKeyboardCache.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-327/MaybeBrokenCryptoAlgorithm.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-927/SensitiveResultReceiver.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-927/SensitiveCommunication.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-522/InsecureBasicAuth.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-190/ArithmeticTainted.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-190/ComparisonWithWiderType.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-190/ArithmeticUncontrolled.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-367/TOCTOURace.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-501/TrustBoundaryViolation.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-089/SqlConcatenated.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-421/SocketAuthRace.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-676/PotentiallyDangerousFunction.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-295/AndroidMissingCertificatePinning.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-835/InfiniteLoop.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-129/ImproperValidationOfArrayIndex.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-129/ImproperValidationOfArrayConstruction.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-312/CleartextStorageProperties.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-312/CleartextStorageAndroidFilesystem.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-312/CleartextStorageSharedPrefs.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-312/CleartextStorageAndroidDatabase.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-749/UnsafeAndroidAccess.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-798/HardcodedCredentialsApiCall.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-532/SensitiveInfoLog.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-078/ExecRelative.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-078/ExecTaintedEnvironment.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-023/PartialPathTraversal.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-079/AndroidWebViewSettingsEnabledJavaScript.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-079/AndroidWebViewAddJavascriptInterface.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-287/AndroidInsecureKeys.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Security/CWE/CWE-273/UnsafeCertTrust.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Likely
+    Bugs/Concurrency/UnreleasedLock.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Diagnostics/ExtractionErrors.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Diagnostics/SuccessfullyExtractedFiles.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Diagnostics/ExtractionWarnings.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Metrics/Summaries/LinesOfCodeKotlin.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Metrics/Summaries/LinesOfCode.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Metrics/Summaries/LinesOfCodeJava.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Telemetry/SupportedExternalTaint.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Telemetry/UnsupportedExternalAPIs.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Telemetry/SupportedExternalSources.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Telemetry/ExternalLibraryUsage.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Telemetry/SupportedExternalSinks.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Telemetry/ExtractorInformation.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/codeql/java-queries/1.0.2/Telemetry/SupportedExternalApis.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/securitytesting/customqueries/0.0.1/securitytesting/customqueries/JdomDeprecated/JdomDeprecated.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/securitytesting/customqueries/0.0.1/securitytesting/customqueries/LogInjection/LogInjection.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/securitytesting/customqueries/0.0.1/securitytesting/customqueries/TrustStrategy/TrustStrategy.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/securitytesting/customqueries/0.0.1/securitytesting/customqueries/JxPathCodeInjection/JxPathCodeInjection.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/securitytesting/customqueries/0.0.1/securitytesting/customqueries/HttpVerbTampering/HttpVerbTampering.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/securitytesting/customqueries/0.0.1/securitytesting/customqueries/ApacheConfigurations/apache_configurations.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/securitytesting/customqueries/0.0.1/securitytesting/customqueries/SpringAuthenticationMisuse/SpringAuthenticationMisuse.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/securitytesting/customqueries/0.0.1/securitytesting/customqueries/DeprecatedLibraries/DeprecatedLibraries.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/securitytesting/customqueries/0.0.1/securitytesting/customqueries/cap/cap.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/securitytesting/customqueries/0.0.1/securitytesting/customqueries/P4Rmi/p4rmi.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/securitytesting/customqueries/0.0.1/securitytesting/customqueries/StringUtilsDeprecated/StringUtilsDeprecated.ql
+ -
+  query: /Users/I578094/Documents/codeql/qlpacks/securitytesting/customqueries/0.0.1/securitytesting/customqueries/InvokerServletConfiguration/InvokerServletConfiguration.ql
